@@ -58,3 +58,7 @@ Some Snapshots:
 ![Imprint](https://github.com/unnzzz/Imprint/blob/main/PICTURES/24.png?raw=true)
 ![Imprint](https://github.com/unnzzz/Imprint/blob/main/PICTURES/25.png?raw=true)
 ![Imprint](https://github.com/unnzzz/Imprint/blob/main/PICTURES/26.png?raw=true)
+
+Hopefully Imprint would help create a new youth force which is incentivized by using a sustainable point system and can help achieve the 2030 goals given by the United Nations, and make a huge contribution in combating climate change. 
+We hope to create a corporation version of Imprint which takes data from the companies under RTI act and calculate their sustainable points using all the 17 goals. It will give their carbon footprint and help in reducing their emissions .
+![Imprint](https://github.com/unnzzz/Imprint/blob/main/PICTURES/28.png?raw=true)
