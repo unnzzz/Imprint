@@ -1,0 +1,447 @@
+body {
+    margin:0px;
+}
+
+.homepage {
+    background-color: #071b1e;
+    overflow-x: hidden;
+}
+.homepage1 {
+    background-color: #fddac6;
+    overflow-x: hidden;
+}
+.banner {
+    width:100%;
+    height: 1300px;
+    justify-content: center;
+    top:-40px;
+    background-image: url("bannerimg1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner2{
+    position:relative;
+    max-width:100%;
+    top:0px;
+    height:900px;
+    background-image: url("login.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.quote{
+    text-align: center;
+    color:#08243d;
+    z-index: 3;
+    font-family: "montserrat";
+}
+@media screen and (max-width:1000px){.quote{font-size: 10px;
+                                            }}
+
+.quote1{
+    position:relative;
+    top:400px;
+    font-size: 70px;
+    color:#08243d;
+    font-family: "montserrat";
+}
+
+.banner1{
+    position:relative;
+    width:auto;
+    top:-40px;
+}
+
+.image1{
+    background-image: url("banner1.png");
+    background-repeat: no-repeat;
+    height:1200px;
+    width:auto;
+    text-align: center;
+}
+
+
+}
+.imageimp{
+
+          width:20px;
+          height:20px;
+         }
+
+.float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    height: 300px;
+    text-align: center;
+    animation-name: float;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width:1000px){.imageimp{width:60%;
+                                              padding-top: 0px;
+                                              position: relative;
+                                              top:-200px;
+                                              height: 50px;
+                                            }}
+
+@keyframes float {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }
+}
+
+.Navigation {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index:3;
+}
+
+.Logo-content {
+    float:left;
+    margin:20px;
+}
+
+.logo {
+  height:5vw;
+  max-width: 100%;
+}
+
+.Menu {
+    float:right;
+    margin-right:50px;
+    padding-top:30px;
+}
+
+.Menu a {
+    text-decoration: none;
+    color:white;
+    font-family: "montserrat";
+    padding-left:30px;
+    font-weight: bold;
+    font-size: 1.6vw;
+}
+
+.Menu a:hover {
+    font-size:180%;
+}
+@media screen and (max-width:800px){.Menu a:hover {
+    font-size:70%;
+                                            }}
+
+@media screen and (max-width:500px){.Menu{ padding-top: 20px;}}
+
+
+.heading {
+    position: relative;
+    font-weight:bolder;
+    color:#a6b541;
+    top:60px;
+    z-index: 2;
+    font-family: "montserrat";
+    font-weight: bolder;
+    text-align: center;
+}
+
+.heading1 {
+    position: relative;
+    font-weight:bolder;
+    color:#a6b541;
+    z-index: 2;
+    font-family: "montserrat";
+    font-weight: bolder;
+    text-align: center;
+}
+
+.heading2 {
+    position: relative;
+    font-weight:bolder;
+    color: #071b1e;
+    top:1200px;
+    z-index: 2;
+    font-family: "montserrat";
+    font-weight: bolder;
+    text-align: center;
+}
+
+.badges {
+    position: relative;
+    left:550px;
+    top:100px;
+}
+
+#about {
+    margin-top: 20px;
+    height:100px;
+    position: relative;
+    top:-400px;
+    text-align: center;
+    font-family: "montserrat";
+    font-size: 1.5vw;
+}
+@media screen and (max-width:1500px){ #about {
+                                      position: relative;
+                                      top:-600px;
+}}
+@media screen and (max-width:1300px){ #about {
+                                      position: relative;
+                                      top:-700px;
+}}
+@media screen and (max-width:1000px){ #about {
+                                      position: relative;
+                                      top:-800px;
+}}
+@media screen and (max-width:800px){ #about {
+                                      position: relative;
+                                      top:-820px;
+}}
+@media screen and (max-width:700px){ #about {
+                                      position: relative;
+                                      top:-1000px;
+}}
+@media screen and (max-width:500px){ #about {
+                                      position: relative;
+                                      top:-1050px;
+}}
+
+
+.info {
+    color:#48977c;
+    font-weight: bold;
+    padding-top:80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: relative;
+    font-family: "montserrat";
+    font-weight: bold;
+    text-align: center;
+    top:20px;
+}
+
+.card {
+
+  transition: 0.3s;
+  width: 40%;
+}
+
+
+
+.container {
+  padding: 1px 0px;
+}
+.cont{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.cont> div {
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  padding:20px;
+
+}
+@media screen and (max-width:800px){.cont> div {
+  width: 60%;
+  margin: 0px;
+  text-align: center;
+  padding:0px;
+
+}}
+h2 {
+    font-size: 2vw;
+    color:white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.cardcontent {
+    font-weight: bold;
+    font-size: 1.2vw;
+    color:#a6b541;
+    padding-top:5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width:800px){.cardcontent {
+    font-weight: bold;
+    font-size: 1.5vw;
+    color:#a6b541;
+
+}}
+
+.card img:hover{ -webkit-filter: drop-shadow(12px 12px 7px #006666);}
+  .hov:hover {
+    animation-name: change;
+    animation-duration:2s;
+    background-image: url("hover.png");
+    background-size: contain;
+}
+
+@keyframes change {
+    100% {background-image: url("hover.png"); opacity:1;}
+}
+
+.taskmaster {
+    align-self: center;
+}
+
+.tasks img {
+    height:200px;
+    width:auto;
+    top:100px;
+    position: relative;
+    left:410px;
+}
+
+.tasks img:hover {
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+}
+
+.more {
+    color:#07223b;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#goals {
+    position:relative;
+    top:750px;
+    height:1000px;
+    font-size: 1.5vw;
+}
+
+#goals1 {
+    position:relative;
+    top:0px;
+    height:1000px;
+    font-size: 1.5vw;
+}
+@media screen and (max-width:1500px){ #goals {
+                                      position: relative;
+                                      top:500px;
+}}
+@media screen and (max-width:1300px){ #goals {
+                                      position: relative;
+                                      top:300px;
+}}
+@media screen and (max-width:1000px){ #goals {
+                                      position: relative;
+                                      top:200px;
+}}
+@media screen and (max-width:800px){ #goals {
+                                      position: relative;
+                                      top:1120px;
+}}
+@media screen and (max-width:700px){ #goals {
+                                      position: relative;
+                                      top:850px;
+}}
+@media screen and (max-width:500px){ #goals{
+                                      position: relative;
+                                      top:750px;
+}}
+.design1 {
+    float:right;
+    z-index:-1;
+    display: inline;
+    top:-400px;
+    position: relative;
+}
+
+.row {
+    top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;}
+
+.goals {
+    flex: 50%;
+     padding: 60px 90px 60px 280px;
+}
+
+.goals img {
+    height:200px;
+    width:200px;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.goals img:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+}
+.goals1 {
+    flex: 50%;
+     padding: 60px 90px 60px 280px;
+}
+
+.goals1 img {
+    height:200px;
+    width:200px;
+    position: relative;
+    left:160px;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.goals1 img:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+}
+.steps {
+    position: relative;
+    top:-200px;
+    left:-30px;
+}
+
+
+
+.NGO{position: relative;
+     top:800px;}
+.ngoi {
+    height:500px;
+    width:1000px;
+    position: relative;
+    left:300px;
+    top:100px;
+    animation-name: float;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#contact{position: relative;
+         top:-1100px;
+         z-iindex:3;}
+.form {
+    max-width: 100%;
+    top:1260px;
+    position: relative;
+    text-align: center;
+}
+
+.footerimg {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    top:1200px;
+}
+
+@media screen and (max-width:500px){.footerimg{top:400px;}}
+@media screen and (max-width:1000px){.footerimg{top:3000px;}}
+@media screen and (max-width:1600px){.footerimg{top:2000px;}}
+@media screen and (max-width:1200px){.footerimg{top:3000px;}}
+@media screen and (max-width:1300px){.footerimg{top:3900px;}}
+@media screen and (max-width:1500px){.footerimg{top:3200px;}}

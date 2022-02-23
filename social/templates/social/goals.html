@@ -1,0 +1,85 @@
+{% extends 'landing/base.html' %}
+{% load static %}
+<!doctype html>
+{% block content %}
+<style>
+  .heading1{text-align: center; font-size: 60px; position: relative; top:90px;}
+  .row {
+      top:-20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;}
+
+  .goals1 {
+      flex: 50%;
+       padding: 0px 90px 60px 320px;
+  }
+
+  .goals1 img {
+      height:200px;
+      width:200px;
+      margin-top: 8px;
+      vertical-align: middle;
+  }
+
+</style>
+<body class="homepage1">
+<div id="goals1">
+  <h1 class="heading1">GOALS</h1>
+  <img class="design1" src="{% static 'designside.png' %}">
+  <div class="row">
+    <div class="goals1">
+      <a href="{% url 'tasks1' %}">
+        <img src="{% static '1.png' %}"></a>
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '2.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '3.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '4.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '5.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '6.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '7.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '8.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '9.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '10.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '11.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '12.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '13.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '14.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '15.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '16.png' %}"></a>
+
+      <a href="{% url 'tasks' %}">
+        <img src="{% static '17.png' %}"></a>
+    </div>
+
+  </div>
+{% endblock content %}

@@ -1,0 +1,11 @@
+{% extends 'landing/base.html' %}
+{% load static %}
+<!doctype html>
+{% block content %}
+<style>
+  .task{height:1000px;
+        position:relative;
+        left:200px;
+</style>
+<a href="{% url 'post-list' %}"><img class="task" src="{% static 'tasks1.png' %}"></a>
+{% endblock content %}
