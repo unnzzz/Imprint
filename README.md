@@ -46,7 +46,7 @@ Every one of us can help limit global warming and take care of our planet. By ma
 18.Editing user Bio\
 19.Hashtag searching\
 20.Posts Retrieval
-![Imprint](https://github.com/unnzzz/Imprint/blob/main/PICTURES/11.png?raw=true)
+
 
 Some Snapshots:
 ![Imprint](https://github.com/unnzzz/Imprint/blob/main/PICTURES/15.png?raw=true)
